@@ -4,6 +4,14 @@ ZatcaEGS (Zatca eInvoice Generation System) is an application designed to integr
 
 [Live Services](https://zatcaegs.azurewebsites.net)
 
+## Using Without Manager.io
+
+ZatcaEGS is designed for Manager.io, but you can use the **Zatca.eInvoice** library directly in your own app (no Manager). See **[STANDALONE_USAGE.md](STANDALONE_USAGE.md)** for:
+
+- Using `Zatca.eInvoice` in your own .NET app (API, console, etc.)
+- Running the **Zatca.StandaloneExample** console app (`dotnet run --project Zatca.StandaloneExample`)
+- Device onboarding, building UBL invoices, signing, and calling ZATCA APIs yourself
+
 ## Video Demonstration
 
 Watch the demonstration of the project:
